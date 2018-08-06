@@ -1,0 +1,76 @@
+#header_block_parent{
+    background-color: #2874f0;
+}
+#header_block{
+background: #2874f0;
+height: 41px;
+width: 80%;
+margin: 0 auto;
+}
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+#logo img {
+    width: 110px;
+}
+#logo{
+    width: 15%;
+    float: left;
+    margin: 5px 5px 0 0px;
+}
+#search{
+    width: 60%;
+    float: left;
+}
+#login{
+    width:30%;
+    float: right;
+    text-align: right;
+    margin: -29px 0px;
+    color:white;
+}
+#search input{
+    padding: 0 16px;
+    border-radius: 2px 0 0 2px;
+    border: 0 none;
+    outline: 0 none;
+    font-size: 14px;
+    height: 30px;   
+    width: 50%;
+    margin: 5px;
+}
+.search_icon{
+   float: right;
+   
+}
+.search_icon i{
+    color: #2874f0;
+}
+.test{
+    border: 1px solid black;
+    width: 30%;
+    float: left; /*<!--to keep block after each other in same line-->*/
+    margin:18px;
+    text-align: center;
+    padding: 30px 0px;
+    box-shadow: inset 2px 2px 2px 2px black; /*shadow for inside the box*/
+    border-radius: 30px; /*curved edges*/
+    text-shadow:5px 5px 5px skyblue;
+    text-decoration: underline;
+
+}
+.test:hover{
+    background: orangered;
+}
+/* .test1{
+    background:pink;
+}
+
+.test2{
+    background: white;
+}
+.test3{
+    background: orange;
+} */
